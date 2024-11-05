@@ -1,0 +1,74 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #311a3b;
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    background-color: #7b68ee;
+    width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px; 
+    margin-top: 5px; 
+    display: block; 
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #684caf;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #563b92;
+}
+
+p {
+    color: #fff;
+    font-size: 14px;
+}
+
+a {
+    color: #fff;
+    text-decoration: underline;
+}
